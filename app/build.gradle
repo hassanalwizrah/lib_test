@@ -39,8 +39,7 @@ android {
 }
 
 dependencies {
-
-    implementation project(path: ':mylibrary')
+    implementation files('../libs/mylibrary-debug.aar')
 
     implementation 'androidx.core:core-ktx:1.7.0'
     implementation 'androidx.appcompat:appcompat:1.4.1'
